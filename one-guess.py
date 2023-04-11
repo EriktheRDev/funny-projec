@@ -12,7 +12,7 @@ correct[0] = possibilities[random.randint(0, 5)]
 correct[1] = possibilities[random.randint(0, 5)]
 correct[2] = possibilities[random.randint(0, 5)]
 correct[3] = possibilities[random.randint(0, 5)]
-cue_win = sg.Window(title="MasterMind", layout=cue_layout)
+cue_win = sg.Window(title="One-Guess MasterMind", layout=cue_layout)
 current_level = 3
 eventies = ["[_]","[_]","[_]","[_]"]
 spot = 0
